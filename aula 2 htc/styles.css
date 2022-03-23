@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    color: #3F3D56;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 396px;
+}
+
+.title {
+    margin-top: 60px;
+    font-size: 37px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.label-field {
+    font-size: 14px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    color: #3F3D56;
+    width: 100%;
+}
+
+#name-field {
+    width: 100%;
+    border: 1px solid #ABB3A8;
+    padding: 12px 14px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.genre-group {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.country-date {
+    flex-direction: row;
+}
+
+input {
+    margin-bottom: 22px;
+    border: 1px solid #ABB3A8;
+    padding: 12px 14px;
+}
+
+label {
+    margin-bottom: 4px;
+}
+
+.country-field {
+    margin-left: 18px;
+}
+
+select {
+    width: 100%;
+    border: 1px solid #ABB3A8;
+    padding: 12px 14px;
+}
+
+.genres {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.genres input {
+    margin-bottom: 0;
+    margin-right: 4px;
+}
+
+.genres label {
+    margin-bottom: 0;
+}
+
+.terms input {
+    margin-right: 4px;
+}
+
+.terms {
+    flex-direction: row;
+    margin-bottom: 28px;
+}
+
+.terms label {
+    margin-bottom: 0;
+}
+
+.button {
+    width: 100%;
+    margin-bottom: 28px;
+    background-color: #3F3D56;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 14px 0;
+    transition-duration: 500ms;
+}
+
+.button:hover {
+    background-color: #3f3d56ef;
+}
+
+.sign-in {
+    flex-direction: row;
+    justify-content: center;
+}
+
